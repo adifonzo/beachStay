@@ -5,3 +5,22 @@
     width: 85%;
     margin: 0 auto;
 }
+
+p {
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: $lato;
+    font-weight: 400;
+    color: $black;
+}
+
+.findOut, .readMore{
+    background-color: $navy;
+    color: $white;
+    text-decoration: none;
+    font-family: $play;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px;
+}

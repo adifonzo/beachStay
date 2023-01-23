@@ -1,0 +1,14 @@
+@use './variables';
+
+.image__gallery {
+    background-color: $lightBlue;
+    .image__container {
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+        padding: 80px 0;
+        img {
+            width: 32%;
+        }
+    }
+}

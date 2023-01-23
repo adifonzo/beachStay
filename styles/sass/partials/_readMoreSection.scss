@@ -1,0 +1,64 @@
+@use './variables';
+
+.readMore__section {
+    background-color: $lightBlue;
+    display: flex;
+    justify-content: space-between;
+    .leftColumn {
+        width: 44%;
+        img {
+            box-shadow: 20px 20px $turquoise;
+            margin-top: -30px;
+            width: 95%;
+            margin-bottom: 40px;
+        }
+        .locations__text-container {
+            width: 80%;
+            margin-left: 20%;
+            h4 {
+                color: $navy;
+                font-size: 35px;
+                font-weight: bold;
+                font-family: $lato;
+                letter-spacing: 3px;
+                text-align: right;
+                margin-bottom: 20px;
+                
+            }
+            p {
+                text-align: right;
+                line-height: 30px;
+                padding-bottom: 20px;
+            }
+            .readMore {
+                margin-left: 335px;
+            }
+        }
+    }
+    .rightColumn {
+        width: 44%;
+        img {
+            box-shadow: -20px 20px $turquoise;
+            margin-top: 80px;
+            margin-bottom: -45px;
+            width: 100%;
+        }
+        .plan__text-container {
+            width: 80%;
+            margin-right: 20%;
+            h4 {
+                color: $navy;
+                font-size: 35px;
+                font-weight: bold;
+                font-family: $lato;
+                letter-spacing: 3px;
+                margin-bottom: 20px;
+                margin-top: 80px;
+            }
+            p {
+                line-height: 30px;
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
