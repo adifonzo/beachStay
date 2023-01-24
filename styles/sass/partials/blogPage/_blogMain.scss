@@ -1,0 +1,108 @@
+@use '../variables';
+
+.blog__section {
+    display: flex;
+    justify-content: space-between;
+    .blog--left {
+        width: 63%;
+        margin-top: -10%;
+        .blog__image--left {
+            img {
+                width: 100%;
+                box-shadow: 20px 20px $turquoise
+            }
+        }
+        .blog--text {
+            margin-right: -20px;
+            border-right: 5px solid $turquoise;
+            border-bottom: 5px solid $turquoise;
+            padding-left: 15%;
+            padding-top: 8%;
+            padding-right: 8%;
+            padding-bottom: 3%;
+            h2 {
+                font-family: $lato;
+                font-weight: bold;
+                font-size: 35px;
+                letter-spacing: 3px;
+                color: $green;
+                margin-bottom: 20px;
+            }
+            h3 {
+                font-family: $lato;
+                font-size: 20px;
+                font-style: italic;
+                font-weight: 300;
+                color: $navy;
+                margin-bottom: 40px;
+            }
+            span {
+                font-family: $lato;
+                font-size: 20px;
+                font-style: italic;
+                font-weight: bold;
+                text-transform: capitalize;
+            }
+            p {
+                line-height: 33px;
+            }
+        }
+
+    }
+    .blog--right {
+        width: 25%;
+        margin-top: 100px;
+        .blog__image--right {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .blog--right--mission {
+        h5 {
+            font-family: $lato;
+            color: $navy;
+            font-weight: bold;
+            font-size: 25px;
+            letter-spacing: 1.8px;
+            margin: 20px 0;
+        }
+        p {
+            line-height: 33px;
+        }
+        a {
+            text-decoration: none;
+            color: $green;
+            font-weight: bold;
+            &:hover,
+            &:focus {
+                font-size: 25px;
+            }
+        }
+    }
+    .blog--right--recent {
+        h5 {
+            font-family: $lato;
+            color: $navy;
+            font-weight: bold;
+            font-size: 25px;
+            letter-spacing: 1.8px;
+            margin: 20px 0;
+        }
+        ul {
+            color: $turquoise;
+            padding-left: 20px;
+            li {
+                span {
+                    font-size: 20px;
+                    font-family: $lato;
+                    text-transform: capitalize;
+                    color: $black;
+                    line-height: 33px;
+                    font-weight: 400;
+                    letter-spacing: 1.8px;
+                }
+            }
+        }
+    }
+}

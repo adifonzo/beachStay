@@ -1,0 +1,32 @@
+@use '../variables';
+
+.blog__comment__section {
+    h4 {
+        font-size: 30px;
+        font-family: $lato;
+        letter-spacing: 1.5px;
+        margin-left: 130px;
+    }
+    .comment__box {
+        display: flex;
+        width: 52%;
+        margin-left: 130px;
+        .comment__image {
+            margin-top: 25px;
+        }
+        .comment__text {
+            h6 {
+                font-family: $lato;
+                font-size: 20px;
+                text-transform: capitalize;
+                color: $navy;
+                letter-spacing: 2px;
+                margin: 20px;
+            }
+            p {
+                line-height: 33px;
+                margin-left: 20px;
+            }
+        }
+    }
+}
