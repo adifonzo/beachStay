@@ -14,7 +14,7 @@ p {
     color: $black;
 }
 
-.findOut, .readMore{
+.findOut, .readMore {
     background-color: $navy;
     color: $white;
     text-decoration: none;
@@ -23,4 +23,9 @@ p {
     font-size: 20px;
     font-weight: bold;
     padding: 10px 10px;
+}
+
+body {
+    max-width: 1400px;
+    margin: 0 auto;
 }

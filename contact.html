@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/8e0f402021.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display+SC:ital,wght@1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <title>BeachStays Contact</title>
 </head>
 <body>
     <header class="contact__header">
         <nav class="contact__header__nav">
-            <div>
+            <div class="contact__title__container">
                 <p class="contact__header__title">Beachstays</p>
-            </div> <!-- contact__header__title ends -->
+            </div> <!-- contact__title__container ends -->
             <ul>
                 <li><a href="./home.html">Home</a></li>
                 <li><a href="./about.html">About</a></li>
@@ -21,31 +22,33 @@
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav> <!-- contact__header__nav ends -->
-        <h1 class="contact__header">Get in Touch</h1>
+        <h1 class="contact__h1">Get in Touch</h1>
     </header>
 
     <main>
         <section class="contact__main">
             <div class="contact--flex">
-                <div class="contact__form">
-                    <form>
+                <form class="contact__form">
+                    <div class="form__flex">
                         <div class="name__input">
                             <label for="Name"></label>
-                            <input type="text" name="name" id="name" placeholder="Name" required />
-                        </div> <!-- name__input ends -->
+                            <input type="text"name="name" id="name"placeholder="Name"required />
+                        </div> <!-- name__input ends-->
                         <div class="email__input">
                             <label for="email"></label>
-                            <input type="email" name="email" id="email" placeholder="Email Address" required />
-                        </div> <!-- email__input ends -->
+                            <input type="email"name="email" id="email"placeholder="EmailAddress" required />
+                        </div> <!-- email__input ends-->
+                    </div> <!-- form__flex ends -->
+                    <div class="message__container">
                         <div class="message__input">
-                            <textarea name="message" id="message" placeholder="Message" required></textarea>
-                            <button class="form__button--submit">Submit</button>
-                        </div> <!-- message__input ends -->
-                    </form>
-                </div> <!-- cotact__form ends -->
+                            <textarea name="message"id="message"placeholder="Message"required></textarea>
+                        </div> <!-- message__inputends -->
+                    </div> <!-- message__containerends -->  
+                    <button class="form__button--submit">Submit</button>
+                </form> <!-- comment__form ends -->
                 <div class="contact__info-container">
                     <nav>
-                        <ul>
+                        <ul class="contact--socials">
                             <li>
                                 <a href="https://www.facebook.com/">
                                     <i class="fa-brands fa-facebook-f"></i>

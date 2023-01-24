@@ -317,6 +317,11 @@ p {
   padding: 10px 10px;
 }
 
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 .visit__section {
   background-color: #FAFFFE;
   margin-bottom: 70px;
@@ -792,4 +797,192 @@ textarea {
   width: 58%;
   height: 17vh;
   padding: 35px 20px;
+}
+
+.contact__header {
+  background-image: url(../beach-final-images/contact-image-1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 45vh;
+}
+.contact__header .contact__header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contact__header .contact__header__nav .contact__title__container .contact__header__title {
+  color: #50E3C2;
+  font-family: "Playfair Display SC", serif;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+.contact__header .contact__header__nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: 120px;
+  margin-top: 40px;
+}
+.contact__header .contact__header__nav ul li {
+  list-style: none;
+  font-family: "Lato", sans-serif;
+  margin-right: 3rem;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.contact__header .contact__header__nav ul li a {
+  text-decoration: none;
+  color: #FAFFFE;
+}
+.contact__header h1 {
+  color: #FAFFFE;
+  font-family: "Lato", sans-serif;
+  font-size: 80px;
+  letter-spacing: 9px;
+  margin-left: 130px;
+  margin-top: 150px;
+}
+
+.contact--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contact--flex .contact__form {
+  margin-left: 70px;
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  background-color: #FAFFFE;
+  margin-top: -100px;
+  width: 60%;
+  padding: 40px 50px;
+  -webkit-box-shadow: 20px 20px #50E3C2;
+          box-shadow: 20px 20px #50E3C2;
+  margin-bottom: 100px;
+}
+.contact--flex .contact__form .form__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+.contact--flex .contact__form .form__flex .name__input input {
+  border: none;
+  border-bottom: 2px solid #50E3C2;
+  margin-right: 33px;
+  padding: 20px 20px;
+  width: 350px;
+}
+.contact--flex .contact__form .form__flex .name__input input::-webkit-input-placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.contact--flex .contact__form .form__flex .name__input input::-moz-placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.contact--flex .contact__form .form__flex .name__input input:-ms-input-placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.contact--flex .contact__form .form__flex .name__input input::-ms-input-placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.contact--flex .contact__form .form__flex .name__input input::placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.contact--flex .contact__form .form__flex .email__input input {
+  border: none;
+  border-bottom: 2px solid #50E3C2;
+  padding: 20px 20px;
+  width: 350px;
+}
+.contact--flex .contact__form .form__flex .email__input input::-webkit-input-placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.contact--flex .contact__form .form__flex .email__input input::-moz-placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.contact--flex .contact__form .form__flex .email__input input:-ms-input-placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.contact--flex .contact__form .form__flex .email__input input::-ms-input-placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.contact--flex .contact__form .form__flex .email__input input::placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.contact--flex .contact__form .form__button--submit {
+  background-color: #063974;
+  border: none;
+  color: #FAFFFE;
+  padding: 10px 0;
+  width: 100%;
+  margin-top: 30px;
+  font-family: "Playfair Display SC", serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.contact--flex textarea {
+  border: 2px solid #50E3C2;
+  font-weight: 300;
+  font-size: 20px;
+  width: 100%;
+  height: 22vh;
+  padding: 35px 20px;
+}
+.contact--flex .contact__info-container nav {
+  padding-left: 70px;
+}
+.contact--flex .contact__info-container nav .contact--socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+.contact--flex .contact__info-container nav .contact--socials li {
+  list-style: none;
+  padding-right: 20px;
+  margin-top: 90px;
+  font-size: 20px;
+}
+.contact--flex .contact__info-container nav .contact--socials li a {
+  color: #2C2C2C;
+}
+.contact--flex .contact__info-container nav .contact--info .contact--email {
+  font-family: "Lato", sans-serif;
+  list-style: none;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px 0;
+}
+.contact--flex .contact__info-container nav .contact--info li {
+  list-style: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  line-height: 25px;
 }

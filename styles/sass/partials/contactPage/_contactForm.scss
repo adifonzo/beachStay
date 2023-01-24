@@ -1,0 +1,104 @@
+@use '../variables';
+
+.contact--flex {
+    display: flex;
+    .contact__form {
+        margin-left: 70px;
+        font-size: 25px;
+        font-family: $lato;
+        font-weight: 300;
+        background-color: $white;
+        margin-top: -100px;
+        width: 60%;
+        padding: 40px 50px;
+        box-shadow: 20px 20px $turquoise;
+        margin-bottom: 100px;
+        .form__flex {
+            display: flex;
+            margin-bottom: 30px;
+            .name__input {
+                input {
+                    border: none;
+                    border-bottom: 2px solid $turquoise;
+                    margin-right: 33px;
+                    padding: 20px 20px;
+                    width: 350px;
+                }
+                input::placeholder {
+                    font-family: $lato;
+                    font-weight: 300;
+                    font-size: 20px;
+                }
+                
+            }
+            .email__input {
+                input {
+                    border: none;
+                    border-bottom: 2px solid $turquoise;
+                    padding: 20px 20px;
+                    width: 350px;
+                }
+                input::placeholder {
+                    font-family: $lato;
+                    font-weight: 300;
+                    font-size: 20px;
+                }
+            }
+        }
+        .form__button--submit {
+            background-color: $navy;
+            border: none;
+            color: $white;
+            padding: 10px 0;
+            width: 100%;
+            margin-top: 30px;
+            font-family: $play;
+            font-weight: 500;
+            letter-spacing: 2px;
+            font-size: 20px;
+        }
+    }
+    
+    textarea {
+        border: 2px solid $turquoise;
+        font-weight: 300;
+        font-size: 20px;
+        width: 100%;
+        height: 22vh;
+        padding: 35px 20px;
+    }
+
+    .contact__info-container {
+        nav {
+            padding-left: 70px;
+            .contact--socials {
+                display: flex;
+                margin: 0;
+                li {
+                    list-style: none;
+                    padding-right: 20px;
+                    margin-top: 90px;
+                    font-size: 20px;
+                    a {
+                        color: $black;
+                    }
+                }
+            }
+            .contact--info {
+                .contact--email {
+                    font-family: $lato;
+                    list-style: none;
+                    font-weight: 400;
+                    font-size: 20px;
+                    padding: 10px 0;
+                }
+                li {
+                    list-style: none;
+                    font-family: $lato;
+                    font-weight: 300;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+}
