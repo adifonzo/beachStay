@@ -13,19 +13,33 @@
 </head>
 <body>
     <header>
-        <nav class="header__nav wrapper" >
+        <nav class="header__nav wrapper">
             <div class="header__title__container">
                 <p class="header__title">Beachstays</p>
             </div>
-            <ul>
-                <li><a href="./home.html">Home</a><li>
-                <li><a href="./about.html">About<a><li>
-                <li><a href="./blog.html">Blog</a><li>
-                <li><a href="./contact.html">Contact<a></li>
+            <ul class="nav-links">
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
+            <div class="hamburger__btn__container">
+                <button class="hamburger__icon--button">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="openMenu is-active">
+                <ul class="menu--links">
+                    <li class="menu--item"><a href="./home.html">Home</a></li>
+                    <li class="menu--item"><a href="./about.html">About</a></li>
+                    <li class="menu--item"><a href="./blog.html">Blog</a></li>
+                    <li class="menu--item"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            
         </nav> <!-- header__nav ends -->
 
-        
         <div class="header__h1">
             <h1>welcome to <br><span>Beachstays</span></h1>
         </div> <!-- header__h1 ends -->
@@ -39,7 +53,9 @@
                 <div class="visit__section__text">
                     <h3>Visit Guyana</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus nulla pulvinar tortor. Lorem ipusm dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend. Vestibulum consequat vistibulum felis pharetra luctus. Quisque interdum orci quis convallis.</p>
-                    <a href="#" class="findOut">Find out more</a>
+                    <div class="linkBox">
+                        <a href="#" class="findOut">Find out more</a>
+                    </div>
                 </div> <!-- visit__section__text ends -->
                 <div class="visit__section__image">
                     <img src="./beach-final-images/small-box.jpg" alt="Image from inside of a lakehouse, with a view through the windows and onto the lake">
@@ -137,5 +153,6 @@
     <footer>
         <p>Made by Aiden DiFonzo at Juno College of Technology</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

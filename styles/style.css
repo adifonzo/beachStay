@@ -240,22 +240,24 @@ header .header__nav {
 header .header__nav .header__title__container .header__title {
   color: #50E3C2;
   font-family: "Playfair Display SC", serif;
-  font-size: 20px;
-  margin-top: 10px;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 50px;
 }
 header .header__nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
-  margin-right: 0;
+  margin-right: 60px;
+  margin-top: 40px;
 }
 header .header__nav ul li {
   list-style: none;
   font-family: "Lato", sans-serif;
-  margin-right: 1rem;
+  margin-right: 30px;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -263,11 +265,14 @@ header .header__nav ul li a {
   text-decoration: none;
   color: #FAFFFE;
 }
+header .header__nav ul li a:hover, header .header__nav ul li a:focus {
+  color: #50E3C2;
+}
 
 .header__h1 h1 {
-  font-size: 3rem;
+  font-size: 47px;
   width: 30%;
-  color: #0C5F4C;
+  color: #0c5f4c;
   z-index: 10;
   font-family: "Lato", sans-serif;
   position: absolute;
@@ -333,7 +338,7 @@ body {
   margin-top: 50px;
 }
 .visit__section .visit__section__content .visit__section__text h3 {
-  color: #0C5F4C;
+  color: #0c5f4c;
   font-family: "Lato", sans-serif;
   font-weight: bold;
   font-size: 25px;
@@ -349,6 +354,9 @@ body {
           box-shadow: -20px 20px #50E3C2;
   margin-left: 10%;
   margin-top: 30px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .image__gallery {
@@ -404,7 +412,7 @@ body {
   color: #FAFFFE;
 }
 .icon--flex .item--text h3 {
-  color: #0C5F4C;
+  color: #0c5f4c;
   font-family: "Lato", sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -452,7 +460,7 @@ body {
   padding-bottom: 20px;
 }
 .readMore__section .leftColumn .locations__text-container .readMore {
-  margin-left: 335px;
+  float: right;
 }
 .readMore__section .rightColumn {
   width: 44%;
@@ -484,7 +492,7 @@ body {
 
 .banner {
   width: 100%;
-  height: 500px;
+  height: 32vw;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(../beach-final-images/banner-image.jpg);
@@ -495,7 +503,7 @@ body {
   font-weight: bold;
   font-size: 35px;
   letter-spacing: 3px;
-  color: #0C5F4C;
+  color: #0c5f4c;
   text-align: center;
   margin-top: 90px;
   margin-bottom: 20px;
@@ -539,20 +547,20 @@ footer p {
   font-family: "Playfair Display SC", serif;
   font-size: 25px;
   margin-top: 30px;
-  margin-left: 150px;
+  margin-left: 50px;
 }
 .blog__header .blog__header__nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
-  margin-right: 120px;
+  margin-right: 60px;
   margin-top: 40px;
 }
 .blog__header .blog__header__nav ul li {
   list-style: none;
   font-family: "Lato", sans-serif;
-  margin-right: 3rem;
+  margin-right: 30px;
   text-transform: uppercase;
   font-size: 15px;
   font-weight: bold;
@@ -561,6 +569,9 @@ footer p {
 .blog__header .blog__header__nav ul li a {
   text-decoration: none;
   color: #FAFFFE;
+}
+.blog__header .blog__header__nav ul li a:hover, .blog__header .blog__header__nav ul li a:focus {
+  color: #50E3C2;
 }
 .blog__header h1 {
   color: #FAFFFE;
@@ -602,7 +613,7 @@ footer p {
   font-weight: bold;
   font-size: 35px;
   letter-spacing: 3px;
-  color: #0C5F4C;
+  color: #0c5f4c;
   margin-bottom: 20px;
 }
 .blog__section .blog--left .blog--text h3 {
@@ -643,7 +654,7 @@ footer p {
 }
 .blog__section .blog--right--mission a {
   text-decoration: none;
-  color: #0C5F4C;
+  color: #0c5f4c;
   font-weight: bold;
 }
 .blog__section .blog--right--mission a:hover, .blog__section .blog--right--mission a:focus {
@@ -816,20 +827,20 @@ textarea {
   font-family: "Playfair Display SC", serif;
   font-size: 25px;
   margin-top: 30px;
-  margin-left: 150px;
+  margin-left: 50px;
 }
 .contact__header .contact__header__nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
-  margin-right: 120px;
+  margin-right: 60px;
   margin-top: 40px;
 }
 .contact__header .contact__header__nav ul li {
   list-style: none;
   font-family: "Lato", sans-serif;
-  margin-right: 3rem;
+  margin-right: 30px;
   text-transform: uppercase;
   font-size: 15px;
   font-weight: bold;
@@ -838,6 +849,9 @@ textarea {
 .contact__header .contact__header__nav ul li a {
   text-decoration: none;
   color: #FAFFFE;
+}
+.contact__header .contact__header__nav ul li a:hover, .contact__header .contact__header__nav ul li a:focus {
+  color: #50E3C2;
 }
 .contact__header h1 {
   color: #FAFFFE;
@@ -985,4 +999,159 @@ textarea {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   line-height: 25px;
+}
+
+@media (max-width: 1200px) {
+  .header__h1 h1 {
+    font-size: 30px;
+  }
+  .header__h1 span {
+    font-size: 3.7rem;
+  }
+}
+@media (max-width: 800px) {
+  .header__nav .header__title__container p {
+    color: #50E3C2;
+    font-family: "Playfair Display SC", serif;
+    font-size: 15px !important;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .header__nav ul li {
+    font-size: 10px !important;
+  }
+  .header__h1 h1 {
+    top: 20%;
+    left: 30%;
+    font-size: 20px;
+  }
+  .header__h1 span {
+    font-size: 2.5rem;
+  }
+  .header__image-container {
+    margin-top: 95px;
+    width: 35%;
+  }
+  .visit__section__content {
+    display: block !important;
+  }
+  .visit__section__content .visit__section__image img {
+    width: 70vw;
+  }
+  .visit__section__content .visit__section__text h3 {
+    text-align: center;
+  }
+  .visit__section__content .visit__section__text p {
+    font-size: 15px;
+  }
+  .visit__section__content .visit__section__text .linkBox {
+    text-align: center;
+  }
+  .info__section__container ul {
+    display: block !important;
+  }
+  .info__section__container ul li {
+    width: 100% !important;
+  }
+  .readMore__section {
+    display: block;
+  }
+  .readMore__section .leftColumn {
+    width: 100%;
+  }
+  .readMore__section .leftColumn .locations__text-container {
+    width: 68%;
+    margin: 0 auto;
+  }
+  .readMore__section .rightColumn {
+    width: 100%;
+  }
+  .readMore__section .rightColumn .plan__text-container {
+    width: 68%;
+    margin: 0 auto;
+  }
+  .readMore__section .rightColumn .plan__text-container h4 {
+    margin-top: 140px;
+  }
+  .readMore__section .rightColumn img {
+    width: 90%;
+    margin-left: 77px;
+    margin-bottom: auto;
+  }
+}
+@media (min-width: 600px) {
+  .hamburger__icon--button {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .header__nav .nav-links {
+    display: none !important;
+  }
+  .header__nav .header__title__container {
+    margin: 0 auto;
+  }
+  .header__h1 h1 {
+    font-size: 16px;
+    top: 13%;
+    left: 8%;
+    width: 100%;
+  }
+  .header__h1 h1 span {
+    font-size: 2rem;
+  }
+}
+.openMenu {
+  position: fixed;
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #D2F9F1;
+  width: 100%;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 20;
+}
+
+.openMenu.active {
+  left: 0;
+}
+
+.menu--item a {
+  color: blue;
+  -webkit-transition: none;
+  transition: none;
+  padding: 20px;
+}
+.menu--item a:hover {
+  color: red;
+}
+
+header .header__nav .menu--links {
+  display: block;
+  margin-top: 10px;
+}
+header .header__nav .menu--links li {
+  padding: 30px;
+  margin: 0;
+}
+header .header__nav .menu--links li a {
+  color: #063974;
+}
+header .header__nav .hamburger__btn__container {
+  margin-top: 15px;
+}
+header .header__nav .hamburger__btn__container .hamburger__icon--button {
+  width: 40px;
+  background: transparent;
+  border: none;
+}
+header .header__nav .hamburger__btn__container .hamburger__icon--button i {
+  font-size: 30px;
+  color: #50E3C2;
 }

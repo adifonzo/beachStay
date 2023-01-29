@@ -11,25 +11,30 @@ header {
             .header__title {
                 color: $turquoise;
                 font-family: $play;
-                font-size: 20px;
-                margin-top: 10px
+                font-size: 25px;
+                margin-top: 30px;
+                margin-left: 50px;
             }
         }
         ul {
             display: flex;
             margin-left: auto;
-            margin-right: 0;
+            margin-right: 60px;
+            margin-top: 40px;
             li {
                 list-style: none;
                 font-family: $lato;
-                margin-right: 1rem;
+                margin-right: 30px;
                 text-transform: uppercase;
-                font-size: 12px;
+                font-size: 15px;
                 font-weight: bold;
                 letter-spacing: 1px;
                 a {
                     text-decoration: none;
                     color: $white;
+                }
+                a:hover, a:focus {
+                    color: $turquoise;
                 }
             }
         }
@@ -39,7 +44,7 @@ header {
 .header__h1 {
     
     h1 {
-    font-size: 3rem;
+    font-size: 47px;
     width: 30%;
     color: $green;
     z-index: 10;

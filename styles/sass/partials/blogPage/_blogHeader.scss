@@ -14,18 +14,18 @@
                 font-family: $play;
                 font-size: 25px;
                 margin-top: 30px;
-                margin-left: 150px
+                margin-left: 50px;
             }
         }
         ul {
             display: flex;
             margin-left: auto;
-            margin-right: 120px;
+            margin-right: 60px;
             margin-top: 40px;
             li {
                 list-style: none;
                 font-family: $lato;
-                margin-right: 3rem;
+                margin-right: 30px;
                 text-transform: uppercase;
                 font-size: 15px;
                 font-weight: bold;
@@ -33,6 +33,9 @@
                 a {
                     text-decoration: none;
                     color: $white;
+                }
+                a:hover, a:focus {
+                    color: $turquoise;
                 }
             }
         }
