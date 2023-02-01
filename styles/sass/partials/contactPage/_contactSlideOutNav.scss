@@ -1,0 +1,29 @@
+@use '../variables';
+
+.contact__header {
+    .contact__header__nav {
+        .menu--links {
+            display: block;
+            margin-top: 10px;
+            li {
+                padding: 30px;
+                margin: 0;
+                a {
+                color: $navy;
+                }
+            }
+        }
+        .hamburger__btn__container {
+            margin-top: 15px;
+            .hamburger__icon--button {
+                width: 40px;
+                background: transparent;
+                border: none;
+                i {
+                    font-size: 30px;
+                    color: $turquoise;
+                }
+            }
+        }
+    }
+}

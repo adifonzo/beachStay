@@ -1,0 +1,132 @@
+@use '../variables';
+
+@media (max-width: 1200px) {
+    .contact__main {
+        .contact--flex {
+            display: block;
+            .contact__form {
+                width: 836px;
+            }
+            .contact__info-container {
+                nav {
+                    padding: 0;
+                    text-align: center;
+                    .contact--socials {
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .contact__header {
+        .contact__h1 {
+            margin-left: 75px;
+        }
+    }
+    .contact__main {
+        .contact--flex {
+            .contact__form {
+                width: 600px;
+                margin-left: 46px;
+                .form__flex {
+                    .name__input {
+                        input {
+                            width: 240px;
+                        }
+                    }
+                    .email__input {
+                        input {
+                            width: 225px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .contact__header__nav {
+        .contact__title__container {
+            p {
+                color: $turquoise;
+                font-family: $play;
+                font-size: 15px !important;
+                margin-top: 30px;
+                margin-left: 50px;
+            }
+        }
+        ul {
+            li {
+                font-size: 10px !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .contact__header {
+        .contact__h1 {
+            font-size: 50px;
+        }
+    }
+    .contact__main {
+        .contact--flex {
+            .contact__form {
+                width: 80%;
+                .form__flex {
+                    display: block;
+                    .name__input {
+                        input {
+                            width: 250px;
+                        }
+                    }
+                    .email__input {
+                        input {
+                            width: 250px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    .hamburger__icon--button {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact__header__nav {
+        .nav-links {
+            display: none !important;
+        }
+        .contact__title__container {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .contact__main {
+        .contact--flex {
+            .contact__form {
+                box-shadow: none;
+                margin-top: 150px;
+                margin-left: 0;
+                .message__container {
+                    .message__input {
+                        textarea {
+                            width: 140%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

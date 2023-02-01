@@ -29,4 +29,15 @@
             }
         }
     }
+    .comment__form__container {
+        .comment__form {
+            .message__container {
+                .message__input {
+                    textarea {
+                        width: 736px;
+                    }
+                }
+            }
+        }
+    }
 }

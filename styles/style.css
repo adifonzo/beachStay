@@ -710,6 +710,9 @@ footer p {
   line-height: 33px;
   margin-left: 20px;
 }
+.blog__comment__section .comment__form__container .comment__form .message__container .message__input textarea {
+  width: 736px;
+}
 
 .comment__form__container .comment__form {
   margin-top: 40px;
@@ -815,7 +818,7 @@ textarea {
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
-  height: 45vh;
+  height: 450px;
 }
 .contact__header .contact__header__nav {
   display: -webkit-box;
@@ -874,7 +877,6 @@ textarea {
   font-weight: 300;
   background-color: #FAFFFE;
   margin-top: -100px;
-  width: 60%;
   padding: 40px 50px;
   -webkit-box-shadow: 20px 20px #50E3C2;
           box-shadow: 20px 20px #50E3C2;
@@ -1152,6 +1154,238 @@ header .header__nav .hamburger__btn__container .hamburger__icon--button {
   border: none;
 }
 header .header__nav .hamburger__btn__container .hamburger__icon--button i {
+  font-size: 30px;
+  color: #50E3C2;
+}
+
+@media (max-width: 1400px) {
+  .comment__form__container .comment__form .form__button--submit {
+    width: 736px;
+  }
+}
+@media (max-width: 1000px) {
+  .blog__section .blog--right {
+    width: 32%;
+  }
+  .blog__section .blog--right p {
+    font-size: 20px;
+  }
+  .blog__comment__section .comment__form__container .comment__form .form__flex .name__input input {
+    width: 230px;
+  }
+  .blog__comment__section .comment__form__container .comment__form .form__flex .email__input input {
+    width: 230px;
+  }
+  .blog__comment__section .comment__form__container .comment__form .message__container .message__input textarea {
+    width: 500px;
+  }
+  .blog__comment__section .comment__form__container .comment__form .form__button--submit {
+    width: 500px;
+  }
+}
+@media (max-width: 800px) {
+  .blog__header__nav .blog__title__container p {
+    color: #50E3C2;
+    font-family: "Playfair Display SC", serif;
+    font-size: 15px !important;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .blog__header__nav ul li {
+    font-size: 10px !important;
+  }
+  .blog__section {
+    display: block;
+  }
+  .blog__section .blog--right {
+    width: 65%;
+    margin-left: auto;
+    border-left: 5px solid #50E3C2;
+    border-bottom: 5px solid #50E3C2;
+  }
+  .blog__section .blog--right .blog__image--right img {
+    -webkit-box-shadow: -20px -20px #50E3C2;
+            box-shadow: -20px -20px #50E3C2;
+  }
+  .blog__section .blog--right .blog--right--mission {
+    padding-left: 5%;
+  }
+  .blog__section .blog--right .blog--right--recent {
+    padding-left: 5%;
+  }
+  .blog__comment__section .comment__box {
+    width: 85%;
+    margin: 0 10%;
+    margin-bottom: 75px;
+  }
+}
+@media (max-width: 750px) {
+  .blog__comment__section .comment__form__container .comment__form {
+    margin: 0 auto;
+    width: 50%;
+  }
+  .blog__comment__section .comment__form__container .comment__form .message__container .message__input textarea {
+    width: 350px;
+  }
+  .blog__comment__section .comment__form__container .comment__form .form__flex {
+    display: block;
+  }
+  .blog__comment__section .comment__form__container .comment__form .form__flex .name__input input {
+    width: 350px;
+  }
+  .blog__comment__section .comment__form__container .comment__form .form__flex .email__input input {
+    width: 350px;
+  }
+  .blog__comment__section .comment__form__container .comment__form .form__button--submit {
+    width: 350px;
+  }
+}
+@media (min-width: 600px) {
+  .hamburger__icon--button {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .blog__header__nav .nav-links {
+    display: none !important;
+  }
+  .blog__header__nav .blog__title__container {
+    margin: 0 auto;
+  }
+  .blog__comment__section .comment__form__container .comment__form {
+    margin: 0 auto;
+    width: 85%;
+  }
+}
+.blog__header .blog__header__nav .menu--links {
+  display: block;
+  margin-top: 10px;
+}
+.blog__header .blog__header__nav .menu--links li {
+  padding: 30px;
+  margin: 0;
+}
+.blog__header .blog__header__nav .menu--links li a {
+  color: #063974;
+}
+.blog__header .blog__header__nav .hamburger__btn__container {
+  margin-top: 15px;
+}
+.blog__header .blog__header__nav .hamburger__btn__container .hamburger__icon--button {
+  width: 40px;
+  background: transparent;
+  border: none;
+}
+.blog__header .blog__header__nav .hamburger__btn__container .hamburger__icon--button i {
+  font-size: 30px;
+  color: #50E3C2;
+}
+
+@media (max-width: 1200px) {
+  .contact__main .contact--flex {
+    display: block;
+  }
+  .contact__main .contact--flex .contact__form {
+    width: 836px;
+  }
+  .contact__main .contact--flex .contact__info-container nav {
+    padding: 0;
+    text-align: center;
+  }
+  .contact__main .contact--flex .contact__info-container nav .contact--socials {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (max-width: 950px) {
+  .contact__header .contact__h1 {
+    margin-left: 75px;
+  }
+  .contact__main .contact--flex .contact__form {
+    width: 600px;
+    margin-left: 46px;
+  }
+  .contact__main .contact--flex .contact__form .form__flex .name__input input {
+    width: 240px;
+  }
+  .contact__main .contact--flex .contact__form .form__flex .email__input input {
+    width: 225px;
+  }
+}
+@media (max-width: 800px) {
+  .contact__header__nav .contact__title__container p {
+    color: #50E3C2;
+    font-family: "Playfair Display SC", serif;
+    font-size: 15px !important;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .contact__header__nav ul li {
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 700px) {
+  .contact__header .contact__h1 {
+    font-size: 50px;
+  }
+  .contact__main .contact--flex .contact__form {
+    width: 80%;
+  }
+  .contact__main .contact--flex .contact__form .form__flex {
+    display: block;
+  }
+  .contact__main .contact--flex .contact__form .form__flex .name__input input {
+    width: 250px;
+  }
+  .contact__main .contact--flex .contact__form .form__flex .email__input input {
+    width: 250px;
+  }
+}
+@media (min-width: 600px) {
+  .hamburger__icon--button {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .contact__header__nav .nav-links {
+    display: none !important;
+  }
+  .contact__header__nav .contact__title__container {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 450px) {
+  .contact__main .contact--flex .contact__form {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin-top: 150px;
+    margin-left: 0;
+  }
+  .contact__main .contact--flex .contact__form .message__container .message__input textarea {
+    width: 140%;
+  }
+}
+.contact__header .contact__header__nav .menu--links {
+  display: block;
+  margin-top: 10px;
+}
+.contact__header .contact__header__nav .menu--links li {
+  padding: 30px;
+  margin: 0;
+}
+.contact__header .contact__header__nav .menu--links li a {
+  color: #063974;
+}
+.contact__header .contact__header__nav .hamburger__btn__container {
+  margin-top: 15px;
+}
+.contact__header .contact__header__nav .hamburger__btn__container .hamburger__icon--button {
+  width: 40px;
+  background: transparent;
+  border: none;
+}
+.contact__header .contact__header__nav .hamburger__btn__container .hamburger__icon--button i {
   font-size: 30px;
   color: #50E3C2;
 }

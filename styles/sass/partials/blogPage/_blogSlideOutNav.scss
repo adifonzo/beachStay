@@ -1,34 +1,8 @@
-@use './variables.scss';
+@use '../variables';
 
 
-.openMenu {
-    position: fixed;
-    left: -100%;
-    top: 70px;
-    gap: 0;
-    flex-direction: column;
-    background-color: $lightBlue;
-    width: 100%;
-    text-align: center;
-    transition: 0.3s;
-    z-index: 20;
-}
-
-.openMenu.active {
-    left: 0;
-}
-
-.menu--item a {
-    color: blue;
-    transition: none;
-    padding: 20px;
-    &:hover {
-        color: red;
-    }
-}
-
-header {
-    .header__nav {
+.blog__header {
+    .blog__header__nav {
         .menu--links {
             display: block;
             margin-top: 10px;
@@ -54,5 +28,3 @@ header {
         }
     }
 }
-
-
